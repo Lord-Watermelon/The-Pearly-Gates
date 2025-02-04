@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "HolyFont";
+    src: url(../Fonts/Holy.ttf);
+}
+
+body{
+    background-image: url(../Images/heaven.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    font-family: "HolyFont", sans-serif;
+    font-size: 5em;
+    -webkit-text-stroke: 0.5px white;
+}

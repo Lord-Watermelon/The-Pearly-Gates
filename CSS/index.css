@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "HolyFont";
+    src: url(../Fonts/Holy.ttf);
+}
+
+body{
+    background-image: url(../Images/pearlygates.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    font-family: "HolyFont", sans-serif;
+    font-size: 5em;
+    -webkit-text-stroke: 0.5px white;
+}
+
+button{
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.yes-button{
+    background-color: limegreen;
+}
+
+.no-button{
+    background-color: red;
+}
+
+.yes{
+   text-align: center;
+   position: relative;
+   top: 550px;
+}
+
+.no{
+    text-align: center;
+    position: relative;
+    top: 580px;
+ }

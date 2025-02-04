@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "HellFont";
+    src: url(../Fonts/hell.ttf);
+}
+
+body{
+    background-image: url(../Images/hell.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: "HellFont", sans-serif;
+    font-size: 7em;
+    -webkit-text-stroke: 0.5px black;
+}
